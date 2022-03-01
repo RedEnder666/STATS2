@@ -1,0 +1,163 @@
+
+QTabWidget:QWidget{
+background: none;
+}
+
+QCheckBox:indicator{
+width: 15px;
+height: 15px;
+}
+
+QCheckBox:indicator:unchecked{
+    border: 1px solid #3873d9;
+	border-radius: 2px;
+    background: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,d
+                                        stop: 0 #4287ff, stop: 1 #356ccc);
+
+}
+QCheckBox:indicator:checked{
+    border: 1px solid #4287ff;
+	border-radius: 2px;
+    background: #5067ff;
+
+}
+
+QListView:item:selected{
+color: #333;}
+
+QTableView{
+selection-color: #333;
+}
+
+QHeaderView {
+    background-color: #fff;
+    font-size:13px;
+}
+QHeaderView::section:horizontal {
+    color: #fff;
+    border-style: solid;
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #4287ff, stop: 1 #356ccc);
+ }
+QTableView {
+    border: 2px solid #3873d9;
+    border-top-color: #4287ff;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: url(:/img/other/background.png);
+    gridline-color: #777;
+    selection-background-color: #ccdfff;
+    color:#333;
+    font-size:12px;
+ }
+
+    
+QLabel#vi1 {
+    padding: 1px;
+    color: #fff;
+    border-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #4287ff, stop: 1 #356ccc);
+ }
+ 
+QLabel#vi2 {
+    padding: 1px;
+    color: #fff;
+    border-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #4287ff, stop: 1 #356ccc);
+ }
+QListView{
+    border: 2px solid #3873d9;
+    border-top-color: #4287ff;
+    border-radius: 4px;
+
+}
+QListView:item{
+border-bottom: 1px solid #3873d9;
+border-top: none;
+border-left: none;
+border-right:none;
+
+}
+
+
+QPushButton {
+    padding:4px;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid #3873d9;
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #4287ff, stop: 1 #356ccc);
+ }
+QPushButton:pressed {
+    color: #111;
+    border: 1px solid #3873d9;
+    background: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,d
+                                        stop: 0 #4287ff, stop: 1 #356ccc);
+ }
+
+QComboBox{
+    color:white;
+	padding: 1px 0px 1px 3px; /*This makes text colour work*/
+	background: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,
+                                        stop: 0 #4287ff, stop: 1 #356ccc);
+    border-radius: 2px;
+    border: 1px solid #3873d9;
+
+}
+
+QComboBox::drop-down {border-width: 0px;} 
+QComboBox::down-arrow {image: url(noimg); border-width: 0px;}
+ QScrollBar:horizontal {
+     background: #e4e4e4;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     width: 12px;
+     margin: 0px;
+ }
+ QScrollBar::handle:horizontal {
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 1, y2: 0,
+                                    stop: 0 #4287ff, stop: 1 #356ccc);
+     border-radius: 4px;
+     min-height: 20px;
+     margin: 0px 2px 0px 2px;
+ }
+ QScrollBar::add-line:horizontal {
+     background: none;
+     height: 0px;
+     subcontrol-position: right;
+     subcontrol-origin: margin;
+ }
+
+
+ QScrollBar:vertical {
+     background: #e4e4e4;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     width: 12px;
+     margin: 0px;
+ }
+ QScrollBar::handle:vertical {
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 1, y2: 0,
+                                    stop: 0 #4287ff, stop: 1 #356ccc);
+     border-radius: 4px;
+     min-height: 20px;
+     margin: 0px 2px 0px 2px;
+ }
+ QScrollBar::add-line:vertical {
+     background: none;
+     height: 0px;
+     subcontrol-position: right;
+     subcontrol-origin: margin;
+ }
+ QScrollBar::sub-line:vertical {
+     background: none;
+     height: 0px;
+     subcontrol-position: left;
+     subcontrol-origin: margin;
+ }

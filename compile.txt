@@ -1,0 +1,1 @@
+pyinstaller --onefile --icon=Pepe.ico --noconsole main.py

@@ -1,0 +1,18 @@
+QWidget{
+background:rgb(240, 240, 240);
+
+}
+QHeaderView::section{
+background:transparent; 
+
+}
+
+QPushButton{
+background: rgb(226, 226, 226)
+
+}
+
+QComboBox{
+background: rgb(226, 226, 226)
+
+}
